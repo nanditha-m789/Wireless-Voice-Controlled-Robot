@@ -1,0 +1,13 @@
+ESP8266 to L298N Wiring:
+
+D5 (14) -> ENA
+D6 (12) -> ENB
+D8 (15) -> IN1
+D7 (13) -> IN2
+D4 (2)  -> IN3
+D3 (0)  -> IN4
+
+L298N OUT1, OUT2 -> Left Motors
+L298N OUT3, OUT4 -> Right Motors
+L298N 12V -> Battery
+L298N GND -> ESP8266 GND + Battery GND
